@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CBC Workshops"
+  favicon: img/favicon.png
+  sidebar:
+    style: "docked"
+    logo: img/cbc.png
+    search: true
+    contents:
+    
+      - section: "Workshops"
+        href: workshoplist.qmd
+
+        contents:
+        - text: "Intro to HPC"
+          href: introHPC.qmd
+
+        - text: "Bulk RNA-seq"
+          href: bulkRNAseq.qmd
+  
+        - text: "Bulk RNA-seq (w/transcriptome assembly)"
+          href: bulkRNAdeNovo.qmd
+
+        - text: "Single-Cell RNA-seq"
+          href: singleCell.qmd
+
+        - text: "Genome Assembly"
+          href: genomeAssembly.qmd
+
+        - text: "Genome Annotation"
+          href: genomeAnnotation.qmd
+
+        - text: "Variant Detection"
+          href: variantDetection.qmd
+
+        - text: "RAD-seq"
+          href: radseq.qmd
+
+      - text: "Reading Groups"
+        href: readingGroups.qmd
+
+      - text: "Technical Seminars"
+        href: seminars.qmd
+
+      - text: "Certificate in Genomic Data Analysis"
+        href: gda.qmd
+format:
+  html:
+    theme: 
+      light: flatly
+    toc: true
+    # include-in-header:
+      # - text: <script src="src/toggle.js"></script>
+
+
+
