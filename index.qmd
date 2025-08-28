@@ -4,7 +4,7 @@ title: "CBC Training"
 
 The Computational Biology Core at the University of Connecticut offers a number of training opportunities. 
 
-- A monthly workshop series. 
-- Semester-long focused reading/study groups. 
-- Semester-long focused training. 
-- A formal 12 credit certificate program. 
+- A monthly [workshop series](workshopOverview.qmd). 
+- Semester-long focused [reading/study groups](readingGroups.qmd). 
+- Semester-long focused [training](seminars.qmd). 
+- A formal [12 credit certificate program](gda.qmd). 

@@ -12,7 +12,7 @@ website:
     contents:
     
       - section: "Workshops"
-        href: workshoplist.qmd
+        href: workshopOverview.qmd
 
         contents:
         - text: "Intro to HPC"
