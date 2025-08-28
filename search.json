@@ -1,16 +1,26 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CBC Training",
-    "section": "",
-    "text": "The Computational Biology Core at the University of Connecticut offers a number of training opportunities.\n\nA monthly workshop series.\nSemester-long focused reading/study groups.\nSemester-long focused training.\nA formal 12 credit certificate program."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "workshopOverview.html",
+    "href": "workshopOverview.html",
+    "title": "Workshops Overview",
+    "section": "",
+    "text": "The CBC offers a monthly training workshop series that covers commonly applied workflows in bioinformatics. These workshops are typically virtual and conducted over Microsoft Teams, though if there is demand we can schedule an in-person workshop.\nThese workshops are highly practical. We aim to reduce the barriers researchers face in learning a new type of analysis, and are especially useful to those who are in the planning stages for a new project, or who have data they need to begin analyzing.\nVirtual workshops are open to anyone, inside or outside of UConn, though external participants are charged a higher rate. See our schedule page for the current schedule and rates and instructions for how to register. See the left-hand navigation bar for details of individual workshops we offer.\n\nKey features of our workshop series\nOur approach in the workshops is to demonstrate a fully worked example of an analysis of a real dataset, providing conceptual background alongside a detailed explanation of the code to run the software required.\nSome key features of these workshops:\n\nShort: Core content covering the workflow is delivered over three half-days (10am-2pm Eastern time).\nReal data: We walk through all the steps required to analyze a real, typically publicly available, data set, highlighting QC problems and solutions along the way.\nHPC training\n\nWe assume no prior experience with linux or high-performance computing.\nBefore the core content begins you will do a self-guided introduction.\nUse real high-performance computing infrastructure during the workshop.\nIf you are a UConn affiliate, you will gain the knowledge to begin independent analysis on the Mantis cluster.\nWorkshop HPC accounts remain active for two weeks, giving participants the chance to further explore the material.\n\nOpen code: All code required to reproduce the analysis provided in a public Git repository. This repository can serve as a useful template for future analyses.\nSession recordings: Recordings of each day’s sessions are distributed to participants.\n\n\n\nLearning Goals\n\nStudents will be able to describe the components of the focal workflow (e.g. differential expression with RNA-seq) including:\n\nSoftware required.\nInput and output data.\nCommon data formats.\nTypical quality control steps.\nCommonly used statistical approaches.\n\nStudents will be able to describe common study design considerations.\nStudents will be able to interpret the code provided.\nStudents will be able to execute the code provided on UConn’s HPC resources (Xanadu or Mantis).\n\n\nLimitations\nThe short format of these workshops imposes some limitations. - Many workshops are “cooking show” style. For certain types of analyses (e.g. genome assembly), we provide precomputed results to speed the workshop along. However, students will follow along on the HPC, exploring input and results, and will have example code they can run from scratch or modify during the two week period workshop accounts are active. - In the context of Bloom’s Taxonomy we aim to get you through the “remembering” and “understanding” levels and into “application”. But bioinformatics is hard, and learning more deeply will take time.",
+    "crumbs": [
+      "Workshops"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CBC Training",
+    "section": "",
+    "text": "The Computational Biology Core at the University of Connecticut offers a number of training opportunities.\n\nA monthly workshop series.\nSemester-long focused reading/study groups.\nSemester-long focused training.\nA formal 12 credit certificate program."
   }
 ]

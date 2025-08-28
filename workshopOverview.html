@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>workshoplist – CBC Workshops</title>
+<title>Workshops Overview – CBC Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./workshoplist.html">Workshops</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./workshopOverview.html">Workshops</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./workshoplist.html" class="sidebar-item-text sidebar-link active">
+            <a href="./workshopOverview.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Workshops</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -187,15 +187,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-features-of-our-workshop-series" id="toc-key-features-of-our-workshop-series" class="nav-link active" data-scroll-target="#key-features-of-our-workshop-series">Key features of our workshop series</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning Goals</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">workshoplist</h1>
+<h1 class="title">Workshops Overview</h1>
 </div>
 
 
@@ -212,8 +219,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The CBC offers a monthly training workshop series that covers commonly applied workflows in bioinformatics. These workshops are typically virtual and conducted over Microsoft Teams, though if there is demand we can schedule an in-person workshop.</p>
+<p>These workshops are highly practical. We aim to reduce the barriers researchers face in learning a new type of analysis, and are especially useful to those who are in the planning stages for a new project, or who have data they need to begin analyzing.</p>
+<p>Virtual workshops are open to anyone, inside or outside of UConn, though external participants are charged a higher rate. <strong>See <a href="https://bioinformatics.uconn.edu/cbc-workshops/">our schedule page</a> for the current schedule and rates and instructions for how to register</strong>. See the left-hand navigation bar for details of individual workshops we offer.</p>
+<section id="key-features-of-our-workshop-series" class="level3">
+<h3 class="anchored" data-anchor-id="key-features-of-our-workshop-series">Key features of our workshop series</h3>
+<p>Our approach in the workshops is to demonstrate a fully worked example of an analysis of a real dataset, providing conceptual background alongside a detailed explanation of the code to run the software required.</p>
+<p>Some key features of these workshops:</p>
+<ul>
+<li><strong>Short:</strong> Core content covering the workflow is delivered over three half-days (10am-2pm Eastern time).</li>
+<li><strong>Real data</strong>: We walk through all the steps required to analyze a real, typically publicly available, data set, highlighting QC problems and solutions along the way.</li>
+<li><strong>HPC training</strong>
+<ul>
+<li>We assume no prior experience with linux or high-performance computing.</li>
+<li>Before the core content begins you will do a self-guided introduction.</li>
+<li>Use real high-performance computing infrastructure during the workshop.</li>
+<li>If you are a UConn affiliate, you will gain the knowledge to begin independent analysis on the Mantis cluster.</li>
+<li>Workshop HPC accounts remain active for two weeks, giving participants the chance to further explore the material.</li>
+</ul></li>
+<li><strong>Open code</strong>: All code required to reproduce the analysis provided in a public Git repository. This repository can serve as a useful template for future analyses.</li>
+<li><strong>Session recordings</strong>: Recordings of each day’s sessions are distributed to participants.</li>
+</ul>
+</section>
+<section id="learning-goals" class="level3">
+<h3 class="anchored" data-anchor-id="learning-goals">Learning Goals</h3>
+<ul>
+<li>Students will be able to describe the components of the focal workflow (e.g.&nbsp;differential expression with RNA-seq) including:
+<ul>
+<li>Software required.</li>
+<li>Input and output data.</li>
+<li>Common data formats.</li>
+<li>Typical quality control steps.</li>
+<li>Commonly used statistical approaches.</li>
+</ul></li>
+<li>Students will be able to describe common study design considerations.</li>
+<li>Students will be able to interpret the code provided.</li>
+<li>Students will be able to execute the code provided on UConn’s HPC resources (Xanadu or Mantis).</li>
+</ul>
+<section id="limitations" class="level4">
+<h4 class="anchored" data-anchor-id="limitations">Limitations</h4>
+<p>The short format of these workshops imposes some limitations. - Many workshops are “cooking show” style. For certain types of analyses (e.g.&nbsp;genome assembly), we provide precomputed results to speed the workshop along. However, students will follow along on the HPC, exploring input and results, and will have example code they can run from scratch or modify during the two week period workshop accounts are active. - In the context of <a href="https://stearnscenter.gmu.edu/knowledge-center/course-and-curriculum-redesign/blooms-taxonomy/">Bloom’s Taxonomy</a> we aim to get you through the “remembering” and “understanding” levels and into “application”. But bioinformatics is hard, and learning more deeply will take time.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
