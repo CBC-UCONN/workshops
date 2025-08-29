@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>bulkRNAseq – CBC Workshops</title>
+<title>Differential expression analysis with Bulk RNA-seq – CBC Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -187,15 +187,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./workshopOverview.html">Workshops</a></li><li class="breadcrumb-item"><a href="./bulkRNAseq.html">Bulk RNA-seq</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">bulkRNAseq</h1>
+<h1 class="title">Differential expression analysis with Bulk RNA-seq</h1>
 </div>
 
 
@@ -212,8 +219,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>This workshop covers the basics of differential expression analysis at the gene level with bulk RNA-seq data, <em>assuming a reference genome and both structural and functional annotation are available</em>. This workflow can apply to model organisms, and those with genomic resources already available.</p>
+<p>See <a href="https://bioinformatics.uconn.edu/cbc-workshops/">this site</a> for our workshop schedule and registration link.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For species where genomic resources are not available, we offer <a href="./bulkRNAdeNovo.html">a version of the workshop</a> that includes <em>de novo</em> transcriptome assembly and functional annotation. If a genome is available and neither structural nor functional annotation is available, we offer an independent workshop entirely on <a href="./genomeAnnotation.html">genome annotation</a></p>
+</div>
+</div>
+<section id="schedule" class="level3">
+<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
+<ul>
+<li><strong>Prior to workshop</strong>
+<ul>
+<li>Prior to the synchronous portion of the workshop, attendees complete a <a href="./introHPC.html">self-guided introduction to our high performance computing cluster</a> where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM.</li>
+</ul></li>
+<li><strong>Day 1</strong>
+<ul>
+<li>Intro to sequencing technologies</li>
+<li>Intro to RNA-seq data</li>
+<li>Study design considerations</li>
+<li>Retrieving data from NCBI</li>
+<li>QC and Trimming</li>
+</ul></li>
+<li><strong>Day 2</strong>
+<ul>
+<li>Reference alignment</li>
+<li>Expression quantification</li>
+</ul></li>
+<li><strong>Day 3</strong>
+<ul>
+<li>Expression quantification continued.</li>
+<li>Differential expression analysis</li>
+<li>Functional annotations</li>
+<li>Gene set enrichment and over-representation analysis</li>
+<li>Visualizing RNA-seq data and differential expression results</li>
+</ul></li>
+</ul>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>As an example dataset, we use RNA-seq data from:</p>
+<blockquote class="blockquote">
+<p>Reid, N. M., Proestou, D. A., Clark, B. W., Warren, W. C., Colbourne, J. K., Shaw, J. R., … &amp; Whitehead, A. (2016). The genomic landscape of rapid repeated evolutionary adaptation to toxic pollution in wild fish. Science, 354(6317), 1305-1308.</p>
+</blockquote>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
