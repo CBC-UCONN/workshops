@@ -5,6 +5,8 @@ format: html
 
 The CBC offers a monthly training workshop series that covers commonly applied workflows in bioinformatics. These workshops are typically virtual and conducted over Microsoft Teams, though if there is demand we can schedule an in-person workshop. 
 
+Workshops are conducted live, with opportunities to ask questions of instructors before, during and after each session. 
+
 These workshops are highly practical. We aim to reduce the barriers researchers face in learning a new type of analysis, and are especially useful to those who are in the planning stages for a new project, or who have data they need to begin analyzing. 
 
 Virtual workshops are open to anyone, inside or outside of UConn, though external participants are charged a higher rate. **See [our schedule page](https://bioinformatics.uconn.edu/cbc-workshops/) for the current schedule and rates and instructions for how to register**. See the left-hand navigation bar for details of individual workshops we offer.
