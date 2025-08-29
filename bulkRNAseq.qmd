@@ -3,7 +3,7 @@ title: "Differential expression analysis with Bulk RNA-seq"
 format: html
 ---
 
-This workshop covers the basics of differential expression analysis at the gene level with bulk RNA-seq data, *assuming a reference genome and both structural and functional annotation are available*. This workflow can apply to model organisms, and those with genomic resources already available. 
+This workshop covers the basics of differential expression analysis at the gene level with bulk RNA-seq data, *assuming a reference genome and both structural and functional annotation are available*. This workflow can apply to model organisms, and others with published genomic resources. 
 
 See [this site](https://bioinformatics.uconn.edu/cbc-workshops/) for our workshop schedule and registration link. 
 
