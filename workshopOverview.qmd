@@ -25,7 +25,7 @@ Some key features of these workshops:
   - Use real high-performance computing infrastructure during the workshop. 
   - If you are a UConn affiliate, you will gain the knowledge to begin independent analysis on the Mantis cluster. 
   - Workshop HPC accounts remain active for two weeks, giving participants the chance to further explore the material. 
-- **Open code**: All code required to reproduce the analysis provided in a public Git repository. This repository can serve as a useful template for future analyses. 
+- **Open code**: All code required to reproduce the analysis provided in a public Git repository. This repository models basic organizational principles for bioinformatics projects and can serve as a useful template for future analyses. 
 - **Session recordings**: Recordings of each day's sessions are distributed to participants. 
 
 ### Learning Goals
@@ -43,5 +43,6 @@ Some key features of these workshops:
 #### Limitations
 
 The short format of these workshops imposes some limitations. 
+
 - Many workshops are "cooking show" style. For certain types of analyses (e.g. genome assembly), we provide precomputed results to speed the workshop along. However, students will follow along on the HPC, exploring input and results, and will have example code they can run from scratch or modify during the two week period workshop accounts are active.
-- In the context of [Bloom's Taxonomy](https://stearnscenter.gmu.edu/knowledge-center/course-and-curriculum-redesign/blooms-taxonomy/) we aim to get you through the "remembering" and "understanding" levels and into "application". But bioinformatics is hard, and learning more deeply will take time. 
+- In the context of [Bloom's Taxonomy](https://stearnscenter.gmu.edu/knowledge-center/course-and-curriculum-redesign/blooms-taxonomy/) we aim to get you through the "remembering" and "understanding" levels and into "application". But bioinformatics is hard, and learning more deeply will take time and practice. 
