@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>radseq – CBC Workshops</title>
+<title>RAD-seq – CBC Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -187,15 +187,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./workshopOverview.html">Workshops</a></li><li class="breadcrumb-item"><a href="./radseq.html">RAD-seq</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">radseq</h1>
+<h1 class="title">RAD-seq</h1>
 </div>
 
 
@@ -212,8 +219,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="https://www.nature.com/articles/nrg.2015.28"><code>RAD-seq</code></a> refers to a family of laboratory methods for targeting and sequencing a subset of the genome for genotyping applications. This workshop covers the basics of RAD-seq data, with a focus on <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037135">ddRAD data</a> and introduces three general approaches to variant detection and genotyping, including using a reference genome and <em>de novo</em> assembling RAD-seq data.</p>
+<p>The workshop covers QC procedures at multiple analysis stages, major pitfalls of analysis, and approaches for genotypes into different file formats for downstream analysis. The workshop does not cover much downstream data analysis of genotyping data because our participants typically have extremely diverse aims, from phylogenetic inference to parentage analysis, to genetic mapping, though we do demonstrate ADMIXTURE and PCA plots.</p>
+<p>See <a href="https://bioinformatics.uconn.edu/cbc-workshops/">this site</a> for our workshop schedule and registration link.</p>
+<p>See <a href="https://cbc-uconn.github.io/workshops/workshopOverview.html">this page</a> for our general short-form workshop approach.</p>
+<section id="schedule" class="level3">
+<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
+<ul>
+<li><strong>Prior to workshop</strong>
+<ul>
+<li>Prior to the synchronous portion of the workshop, attendees complete a <a href="./introHPC.html">self-guided introduction to our high performance computing cluster</a> where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM.</li>
+</ul></li>
+<li><strong>Day 1</strong>
+<ul>
+<li>Intro to RAD-seq data (focus on ddRAD).</li>
+<li>Demultiplexing RAD data.</li>
+<li>Initial data QC steps.</li>
+<li>Begin <em>de novo</em> assembly and genotyping using <a href="https://catchenlab.life.illinois.edu/stacks/"><code>stacks</code></a>.</li>
+</ul></li>
+<li><strong>Day 2</strong>
+<ul>
+<li>Complete <em>de novo</em> pipeline.</li>
+<li>Reference genome-based genotyping with <code>stacks</code>.</li>
+<li>Reference genome-based genotyping with <code>bwa</code> and <code>freebayes</code>.</li>
+</ul></li>
+<li><strong>Day 3</strong>
+<ul>
+<li>Variant QC
+<ul>
+<li>Filtering variant call sets</li>
+<li>Comparing variant call sets</li>
+</ul></li>
+<li>Reformatting variant data</li>
+<li>Basic population structure analyses (ADMIXTURE and PCA)</li>
+</ul></li>
+</ul>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>We fully work through ddRAD-seq data from an unpublished study of the population genetics of Arctic grayling (a salmonid fish). The dataset has &gt;500 samples from 28 populations, and provides the opportunity to demonstrate several ways to speed up analysis through parallelization on the HPC.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
