@@ -1,5 +1,37 @@
 ---
-title: "radseq"
+title: "RAD-seq"
 format: html
 ---
 
+[`RAD-seq`](https://www.nature.com/articles/nrg.2015.28) refers to a family of laboratory methods for targeting and sequencing a subset of the genome for genotyping applications. This workshop covers the basics of RAD-seq data, with a focus on [ddRAD data](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037135) and introduces three general approaches to variant detection and genotyping, including using a reference genome and *de novo* assembling RAD-seq data. 
+
+The workshop covers QC procedures at multiple analysis stages, major pitfalls of analysis, and approaches for genotypes into different file formats for downstream analysis. The workshop does not cover much downstream data analysis of genotyping data because our participants typically have extremely diverse aims, from phylogenetic inference to parentage analysis, to genetic mapping, though we do demonstrate ADMIXTURE and PCA plots. 
+
+See [this site](https://bioinformatics.uconn.edu/cbc-workshops/) for our workshop schedule and registration link. 
+
+See [this page](https://cbc-uconn.github.io/workshops/workshopOverview.html) for our general short-form workshop approach. 
+
+### Schedule
+
+- **Prior to workshop**
+  - Prior to the synchronous portion of the workshop, attendees complete a [self-guided introduction to our high performance computing cluster](introHPC.qmd) where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM. 
+- **Day 1**
+  - Intro to RAD-seq data (focus on ddRAD).
+  - Demultiplexing RAD data.
+  - Initial data QC steps.
+  - Begin *de novo* assembly and genotyping using [`stacks`](https://catchenlab.life.illinois.edu/stacks/).
+- **Day 2**
+  - Complete *de novo* pipeline.
+  - Reference genome-based genotyping with `stacks`.
+  - Reference genome-based genotyping with `bwa` and `freebayes`. 
+- **Day 3**
+  - Variant QC
+    - Filtering variant call sets
+    - Comparing variant call sets
+  - Reformatting variant data
+  - Basic population structure analyses (ADMIXTURE and PCA)
+
+
+### Data
+
+We fully work through ddRAD-seq data from an unpublished study of the population genetics of Arctic grayling (a salmonid fish). The dataset has >500 samples from 28 populations, and provides the opportunity to demonstrate several ways to speed up analysis through parallelization on the HPC. 
