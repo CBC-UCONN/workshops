@@ -3,7 +3,7 @@ title: "RAD-seq"
 format: html
 ---
 
-[`RAD-seq`](https://www.nature.com/articles/nrg.2015.28) refers to a family of laboratory methods for targeting and sequencing a subset of the genome for genotyping applications. This workshop covers the basics of analyzing RAD-seq data, with a focus on [ddRAD data](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037135) and introduces three general approaches to variant detection and genotyping, including using a reference genome and *de novo* assembling RAD-seq data. The workshop covers QC procedures at multiple analysis stages, major pitfalls of analysis, and approaches for genotypes into different file formats for downstream analysis. 
+[`RAD-seq`](https://www.nature.com/articles/nrg.2015.28) refers to a family of laboratory methods for targeting and sequencing a subset of the genome for genotyping applications. This workshop covers the basics of analyzing RAD-seq data, with a focus on [ddRAD data](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037135) and introduces three general approaches to variant detection and genotyping, including using a reference genome and *de novo* assembling RAD-seq data. The workshop covers QC procedures at multiple analysis stages, major pitfalls of analysis, and approaches for converting genotypes into different file formats for downstream analysis. 
 
 The workshop does not go into detail about the laboratory methods themselves. It also does not cover much downstream data analysis of genotyping data because our participants typically have extremely diverse aims, from phylogenetic inference to parentage analysis, to genetic mapping, though we do demonstrate ADMIXTURE and PCA plots. 
 
