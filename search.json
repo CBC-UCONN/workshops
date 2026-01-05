@@ -18,6 +18,17 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "variantDetection.html",
+    "href": "variantDetection.html",
+    "title": "Small variant detection",
+    "section": "",
+    "text": "In this workshop we teach the students the basics of detecting short germ-line variants (approximately &lt; 50bp) such as single-nucleotide polymorphisms (SNPs), insertions and deletions (INDELs) in a reference genome framework. We cover:\n\nTypes of genetic variation.\nAn introduction to high-throughput sequencing data.\nDetecting and genotyping variants with GATK and Freebayes.\nThe basics of the underlying statistical models for distinguishing true variation from error.\nFiltering variation data.\nAnnotating variation data.\nComparing variant call sets.\nQuality control metrics at multiple points in the analysis.\nStrategies for leveraging high performance computing resources to speed up variant detection and genotyping.\n\nThis workshop is focused on whole-genome sequencing data (WGS), but many of the concepts apply equally well to exome sequencing and other capture probe methods. It does not cover somatic variants, structural variants, or pan-genomes. The workshop does not go into detail about the laboratory methods themselves. It also does not cover much downstream data analysis of genotypes because our participants typically have extremely diverse aims.\nSee this site for our workshop schedule and registration link.\nSee this page for our general short-form workshop approach.\n\nSchedule\n\nPrior to workshop\n\nPrior to the synchronous portion of the workshop, attendees complete a self-guided introduction to our high performance computing cluster where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM.\n\nDay 1\n\nIntro to genetic variation and variant detection.\nInitial data QC steps.\nExploring alignment data in IGV.\n\nDay 2\n\nIntroduction to variant callers and models.\nVariant detection with GATK and Freebayes.\nIntroduction to post-processing variant calls.\n\nDay 3\n\nVariant QC\n\nFiltering variant call sets.\nComparing variant call sets.\n\nAnnotating variant call sets.\nStrategies for arallelizing variant calling and genotyping.\n\n\n\n\nData\nWe fully work through ddRAD-seq data from an unpublished study of the population genetics of Arctic grayling (a salmonid fish). The dataset has &gt;500 samples from 28 populations, and provides the opportunity to demonstrate several ways to speed up analysis through parallelization on the HPC.",
+    "crumbs": [
+      "Workshops",
+      "Variant Detection"
+    ]
+  },
+  {
     "objectID": "workshopOverview.html",
     "href": "workshopOverview.html",
     "title": "Workshops Overview",

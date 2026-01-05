@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>variantDetection – CBC Workshops</title>
+<title>Small variant detection – CBC Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -187,15 +187,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./workshopOverview.html">Workshops</a></li><li class="breadcrumb-item"><a href="./variantDetection.html">Variant Detection</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">variantDetection</h1>
+<h1 class="title">Small variant detection</h1>
 </div>
 
 
@@ -212,8 +219,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>In this workshop we teach the students the basics of detecting short germ-line variants (approximately &lt; 50bp) such as single-nucleotide polymorphisms (SNPs), insertions and deletions (INDELs) in a reference genome framework. We cover:</p>
+<ul>
+<li>Types of genetic variation.</li>
+<li>An introduction to high-throughput sequencing data.</li>
+<li>Detecting and genotyping variants with GATK and Freebayes.</li>
+<li>The basics of the underlying statistical models for distinguishing true variation from error.</li>
+<li>Filtering variation data.</li>
+<li>Annotating variation data.</li>
+<li>Comparing variant call sets.</li>
+<li>Quality control metrics at multiple points in the analysis.</li>
+<li>Strategies for leveraging high performance computing resources to speed up variant detection and genotyping.</li>
+</ul>
+<p>This workshop is focused on whole-genome sequencing data (WGS), but many of the concepts apply equally well to exome sequencing and other capture probe methods. It does not cover somatic variants, structural variants, or pan-genomes. The workshop does not go into detail about the laboratory methods themselves. It also does not cover much downstream data analysis of genotypes because our participants typically have extremely diverse aims.</p>
+<p>See <a href="https://bioinformatics.uconn.edu/cbc-workshops/">this site</a> for our workshop schedule and registration link.</p>
+<p>See <a href="https://cbc-uconn.github.io/workshops/workshopOverview.html">this page</a> for our general short-form workshop approach.</p>
+<section id="schedule" class="level3">
+<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
+<ul>
+<li><strong>Prior to workshop</strong>
+<ul>
+<li>Prior to the synchronous portion of the workshop, attendees complete a <a href="./introHPC.html">self-guided introduction to our high performance computing cluster</a> where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM.</li>
+</ul></li>
+<li><strong>Day 1</strong>
+<ul>
+<li>Intro to genetic variation and variant detection.</li>
+<li>Initial data QC steps.</li>
+<li>Exploring alignment data in IGV.</li>
+</ul></li>
+<li><strong>Day 2</strong>
+<ul>
+<li>Introduction to variant callers and models.</li>
+<li>Variant detection with GATK and Freebayes.</li>
+<li>Introduction to post-processing variant calls.</li>
+</ul></li>
+<li><strong>Day 3</strong>
+<ul>
+<li>Variant QC
+<ul>
+<li>Filtering variant call sets.</li>
+<li>Comparing variant call sets.</li>
+</ul></li>
+<li>Annotating variant call sets.</li>
+<li>Strategies for arallelizing variant calling and genotyping.</li>
+</ul></li>
+</ul>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>We fully work through ddRAD-seq data from an unpublished study of the population genetics of Arctic grayling (a salmonid fish). The dataset has &gt;500 samples from 28 populations, and provides the opportunity to demonstrate several ways to speed up analysis through parallelization on the HPC.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
