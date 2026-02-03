@@ -1,5 +1,32 @@
 ---
-title: "singleCell"
+title: "Single Cell RNA-seq Data Analysis"
 format: html
 ---
+This workshops covers the fundamentals of single cell RNA-seq data analysis. Topics covered include mapping and counting of gene transcripts, various quality control strategies, normalization, dimensionality reduction, clustering, differential expression analysis, and data visualization. 
 
+This workflow can be applied with any organism for which a well annotated reference genome is available.
+
+### Schedule 
+-**Prior to workshop**
+  - Prior to the synchronous portion of the workshop, attendees complete a [self-guided introduction to our high performance computing cluster](introHPC.qmd) where they will learn to connect, work at the command line using the BASH shell on a Linux operating system, and submit work using the HPC job scheduler SLURM. 
+-**Day 1**
+  - Intro to sequencing technologies
+  - Intro to single cell RNA-seq technologies 
+  - Read processing - QC, trimming, mapping, and counting 
+- **Day 2**
+  - Managing python and R environments on HPC
+  - Using Jupyter on HPC
+  - Introduction to Scanpy
+  - Quality control and filtering of single cell data
+- **Day 3**
+  - Normalization and scaling 
+  - Dimensionality reduction and clustering
+  - Annotation
+  - Differential expression analysis
+  - Visualization of single cell data
+
+### Data
+
+As an example dataset, we use single-cell RNA-seq data from:
+
+>Caron, M., St-Onge, P., Sontag, T. et al. Single-cell analysis of childhood leukemia reveals a link between developmental states and ribosomal protein expression as a source of intra-individual heterogeneity. Sci Rep 10, 8079 (2020). https://doi.org/10.1038/s41598-020-64929-x
