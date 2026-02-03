@@ -26,6 +26,9 @@ website:
 
         - text: "Single-Cell RNA-seq"
           href: singleCell.qmd
+        
+        - text: "ATAC/ChIP-seq"
+          href: atac.qmd
 
         - text: "Genome Assembly"
           href: genomeAssembly.qmd
